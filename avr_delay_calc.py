@@ -23,7 +23,7 @@
 
 def getDelayReset(a, b, c):
     # the formula that will be used
-    finalValue = (((((a-1)*5)+4+5)*(b-1)+4+4+5)*(c-1)+4+4+4)-8 # the ret and call functions costs 4 and 4 cycles! Subtract that from +4 for last
+    finalValue = (((((a-1)*5)+4+5)*(b-1)+4+4+5)*(c-1)+4+4+4)-8 # the ret and call functions costs 4 and 4 cycles = -8 cycles at end.
     return finalValue
 
 def getExactValue(target_value, error):
