@@ -25,6 +25,8 @@ def getExactValue(target_value, error):
                     print("Total amount of milliseconds delay is " + str(getDelayReset(i, j ,k)))
                     print(str(count) + "\n")
 
+# 600ms delay
 getExactValue(9600000, 4)
 
+# 200ms delay
 getExactValue(3200000, 4)
