@@ -1,5 +1,3 @@
-import math
-
 # a program designed to obtain perfect register values for a 200ms delay on the Arduino Nano
 
 # the method for calculating the delay in a triple nested loop with resets
